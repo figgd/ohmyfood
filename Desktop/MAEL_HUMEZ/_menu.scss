@@ -1,0 +1,35 @@
+.menu {
+    padding: 0;
+  }
+  .menu__banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+  .menu__content {
+    background-color: #F6F6F6;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    margin-top: -4rem;
+    position: relative;
+    z-index: 2;
+  }
+  .menu__info {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .menu__title {
+    font-family: "Shrikhand", cursive;
+    font-weight: normal;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+  .menu__plates {
+    margin-bottom: 3rem;
+  }

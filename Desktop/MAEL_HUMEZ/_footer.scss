@@ -1,0 +1,27 @@
+.footer {
+    padding: 1.25rem;
+  }
+  @media only screen and (min-width: 992px) {
+    .footer {
+      padding: 1.5625rem 4rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .footer {
+      padding: 1.875rem 8rem;
+    }
+  }
+  
+  .menu__content, section {
+    padding: 3.125rem 1.25rem;
+  }
+  @media only screen and (min-width: 992px) {
+    .menu__content, section {
+      padding: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .menu__content, section {
+      padding: 4rem 8rem;
+    }
+  }
